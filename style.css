@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background-color: #FDD16C;
+  line-height: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.p-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  padding: 15px;
+}
+
+.wagon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+
+ul {
+  padding: 0px;
+  display: inline;
+  margin: auto;
+  padding: 0px;
+}
+
+li {
+  color: black;
+  float: left;
+  width: auto;
+  list-style: outside none none;
+  margin: 0px 10px;
+  padding: 0px;
+}
+
+.wrapper {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+.fab{
+  color: white;
+  font-size: 20px;
+  padding: 7px;
+}
+
+.hbtn {
+  position: relative;
+  padding: 5px 12px;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+  z-index: 0;
+}
+
+
+.hbtn i {
+  padding-right: 8px;
+}
+
+
+.hb-fill-right::before {
+  position: absolute;
+  content: "";
+  background: rgb(255, 255, 255);
+  transition-duration: 0.3s;
+  z-index: -1;
+  inset: 0px auto auto 0px;
+  width: 0px;
+  height: 100%;
+  opacity: 1;
+}
+
+
+.hb-fill-right:hover::before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+
+.hb-fill-right:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  transition: color 0.3s ease 0s, background 0s ease 0.3s;
+}
